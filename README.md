@@ -1,0 +1,1 @@
+# prnt-screenshot-uploader
