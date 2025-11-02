@@ -46,12 +46,12 @@ brew install terminal-notifier
 
 Run node once to upload the latest screenshot file to https://prnt.sc/.
 ```
-node upload-screenshot.js
+cd playwright-test && node upload-screenshot.js
 ```
 
 Or, run node watch to keep it watching.
 ```
-node upload-screenshot.js --watch
+cd playwright-test && node upload-screenshot.js --watch
 ```
 
 Now, when a new screenshot is added to the `Downloads` directory, it will automatically be uploaded to the https://prnt.sc/ website with opening the copied uploaded linke on a new tab of the browser.
